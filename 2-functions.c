@@ -1,15 +1,15 @@
 #include "main.h"
 /****************** PRINT POINTER ******************/
 /**
- * print_pointer - Prints the value of a pointer variable
- * @types: List of arguments
+ * print_pointer - The value of a pointer variable to be printed
+ * @types: Listed arguments
  * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @flags: Active flags to be calculated
  * @width: Get width
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Number of chars printed.
+ * Return: Number of characters to be printed.
  */
 int print_pointer(va_list types, char buffer[],
 int flags, int width, int precision, int size)
@@ -45,9 +45,9 @@ extra_c, padd_start));
 /************************* PRINT NON PRINTABLE *************************/
 /**
  * print_non_printable - Prints ascii codes in hexa of non printable chars
- * @types: List of arguments
- * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @types: Listed arguments
+ * @buffer: Print to be handle by buffer array
+ * @flags: Active flags to be calculated
  * @width: Get width
  * @precision: Precision specification
  * @size: Size specifier
@@ -79,14 +79,14 @@ return (write(1, buffer, i + offset));
 /************************* PRINT REVERSE *************************/
 /**
  * print_reverse - Prints reverse string.
- * @types: List of arguments
+ * @types: Listed arguments
  * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @flags: Active flags to be calculated
  * @width: Get width
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Numbers of chars printed
+ * Return: Numbers of characters to be printed
  */
 int print_reverse(va_list types, char buffer[], int flags,
 int width, int precision, int size)
@@ -116,7 +116,7 @@ return (count);
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
  * print_rot13string - Print a string in rot13.
- * @types: List of arguments
+ * @types: Listed arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
  * @width: Get width

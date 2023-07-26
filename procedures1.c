@@ -2,7 +2,7 @@
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
  * print_unsigned - Prints an unsigned number
- * @types: List of arguments
+ * @types: Listed arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
  * @width: Get width
@@ -31,14 +31,14 @@ return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 /**
  * print_octal - Prints an unsigned number in octal notation
- * @types: List of arguments
+ * @types: Listed arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
  * @width: Get width
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Number of chars printed
+ * Return: Number of characters printed
  */
 int print_octal(va_list types, char buffer[],
 int flags, int width, int precision, int size)
@@ -84,12 +84,12 @@ buffer, flags, 'x', width, precision, size));
  * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
  * @types: List of arguments
  * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @flags: Active flags to be calculated
  * @width: Get width
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Number of chars printed
+ * Return: Number of characters printed
  */
 int print_hexa_upper(va_list types, char buffer[],
 int flags, int width, int precision, int size)
@@ -100,16 +100,16 @@ buffer, flags, 'X', width, precision, size));
 /************** PRINT HEX NUMBER IN LOWER OR UPPER **************/
 /**
  * print_hexa - Prints a hexadecimal number in lower or upper
- * @types: List of arguments
+ * @types: Listed arguments
  * @map_to: Array of values to map the number to
  * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @flags: Active flags calculated
  * @flag_ch: Calculates active flags
  * @width: Get width
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Number of chars printed
+ * Return: Number of characters printed
  */
 int print_hexa(va_list types, char map_to[], char buffer[], int flags,
 char flag_ch, int width, int precision, int size)

@@ -3,9 +3,9 @@
 /**
  * print_char - Prints a char
  *
- * @types: List of the arguments
+ * @types: Listed arguments
  * @buffer: Buffer array handling the print
- * @flags: Calculates active flags
+ * @flags: Active flags calculated
  * @width: Width
  * @precision: Precision specification
  * @size: Size specifier
@@ -22,9 +22,9 @@ return (handle_write_char(c, buffer, flags, width, precision, size));
 /**
  * print_string - Prints a string
  *
- * @types: List of arguments
+ * @types: Listed arguments
  * @buffer: Buffer array handling the print
- * @flags: Calculates active flags
+ * @flags: Active flags calculated
  * @width: Get width.
  * @precision: Precision specification
  * @size: Size specifier
@@ -76,12 +76,12 @@ return (write(1, str, length));
  *
  * @types: Listed arguments
  * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @flags: Active flags to be calculated
  * @width: Get width.
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Number of the printed chars
+ * Return: Number of the printed characters
  */
 int print_int(va_list types, char buffer[],
 int flags, int width, int precision, int size)
@@ -110,16 +110,16 @@ return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
 /************************* PRINT BINARY *************************/
 /**
- * print_binary - Prints an unsigned number
+ * print_binary - An unsigned number printed
  *
  * @types: Listed arguments
- * @buffer: Buffer array to handle print
+ * @buffer: Print to be handled by buffer array
  * @flags: Calculates active flags
  * @width: Get width.
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Number of characters that has been printed.
+ * Return: Characters nunber that has been printed.
  */
 int print_binary(va_list types, char buffer[],
 int flags, int width, int precision, int size)

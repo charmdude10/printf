@@ -46,7 +46,7 @@ va_end(list);
 return (printed_chars);
 }
 /**
-* print_buffer - Prints the contents of the buffer if it exist
+* print_buffer - the contents of the buffer to be printed if it exitst
  * @buffer: Array of chars
  * @buff_ind: Index at which to add next char, represents the length.
  */
